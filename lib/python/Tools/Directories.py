@@ -597,7 +597,7 @@ def sanitizeFilename(filename, maxlen=255):  # 255 is max length in bytes in ext
 		"LPT6", "LPT7", "LPT8", "LPT9",
 	]  # Reserved words on Windows
 	# Remove any blacklisted chars. Remove all charcters below code point 32. Normalize. Strip.
-	filename = normalize("NFKD", "".join(c for c in filename if c not in blacklist and ord(c) > 31)).strip()
+	filename = normalize("NFC", "".join(c for c in filename if c not in blacklist and ord(c) > 31)).strip()
 	if all([x == "." for x in filename]) or filename in reserved:  # if filename is a string of dots
 		filename = "__" + filename
 	# Most Unix file systems typically allow filenames of up to 255 bytes.
