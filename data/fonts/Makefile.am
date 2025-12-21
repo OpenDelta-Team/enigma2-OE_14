@@ -10,10 +10,7 @@ dist_install_DATA = \
 	DejaVuSans.ttf \
 	lcd.ttf \
 	md_khmurabi_10.ttf \
-    error.ttf \
 	nmsbd.ttf \
-    nmsbdh.ttf \
-    HandelGotD.ttf \
 	LiberationSans-Bold.ttf \
 	LiberationSans-BoldItalic.ttf \
 	LiberationSans-Italic.ttf \
