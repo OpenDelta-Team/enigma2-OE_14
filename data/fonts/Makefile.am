@@ -10,7 +10,6 @@ dist_install_DATA = \
 	DejaVuSans.ttf \
 	lcd.ttf \
 	md_khmurabi_10.ttf \
-    tiny.ttf \
     error.ttf \
 	nmsbd.ttf \
     nmsbdh.ttf \
